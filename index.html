@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme Préparation Physique - Meneur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 60px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #005bbb;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+    <script>
+        function toggleCheckbox(checkbox) {
+            checkbox.style.backgroundColor = checkbox.checked ? '#8BC34A' : 'transparent';
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Programme Préparation Physique - Meneur</h1>
+
+    <h2>Phase 1 : Développement Général (Semaines 1 à 3)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Thématique</th>
+                <th>Exercice</th>
+                <th>Répétitions / Charge</th>
+                <th>Fait ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Lundi</td><td>Force bas du corps</td><td>Back Squat</td><td>4x8 / 4x6 / 4x5</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td></td><td></td><td>Soulevé de terre jambes tendues</td><td>3x10 / 3x8 / 4x6</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td></td><td></td><td>Fentes haltères</td><td>3x10 / 3x12 / 4x10</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mardi</td><td>Vitesse + cardio</td><td>Sprint latéral, HIIT</td><td>4x5m, 4x8m, 20s/40s × 6</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mercredi</td><td>Force haut du corps</td><td>Développé couché haltères</td><td>4x8 / 4x6 / 4x5</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td></td><td></td><td>Tractions assistées</td><td>3x8 / 4x6 / 4x5</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Jeudi</td><td>Pliométrie</td><td>Pogo, sauts latéraux</td><td>3x10 intensité max</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Vendredi</td><td>Full body force</td><td>Deadlift trap bar</td><td>4x6 à 70%</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Samedi</td><td>Basket spécifique</td><td>1c1, finition</td><td>30–45 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Dimanche</td><td>Repos actif</td><td>Étirements, mobilité</td><td>45 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+        </tbody>
+    </table>
+
+    <h2>Phase 2 : Développement Spécifique (Semaines 4 à 6)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Thématique</th>
+                <th>Exercice</th>
+                <th>Répétitions / Charge</th>
+                <th>Fait ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Lundi</td><td>Force max jambes</td><td>Back Squat</td><td>5x5 à 80–85%</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td></td><td></td><td>Hip Thrust lourd</td><td>4x8 à 80%</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mardi</td><td>Vitesse latérale</td><td>Départs 5m, T-test</td><td>5x5m, 5x10m</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mercredi</td><td>Haut du corps</td><td>Dips / tractions lestées</td><td>4x6</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Jeudi</td><td>Pliométrie</td><td>Sauts sur box, depth jumps</td><td>3x5 / 5x combo</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Vendredi</td><td>Core + posture</td><td>Farmer Walk + gainage</td><td>3x30m + 3x1min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Samedi</td><td>Basket</td><td>1c1, finition contact</td><td>30 min intensité max</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Dimanche</td><td>Repos actif</td><td>Mobilité + récupération</td><td>40–60 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+        </tbody>
+    </table>
+
+    <h2>Phase 3 : Pic de Performance (Semaines 8–9)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Thématique</th>
+                <th>Exercice</th>
+                <th>Répétitions / Charge</th>
+                <th>Fait ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Lundi</td><td>Réactivité</td><td>Sprints 5m / 10m</td><td>3x3 séries</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mardi</td><td>Pliométrie</td><td>Sauts max + récup longue</td><td>3x5</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Mercredi</td><td>Vitesse + coordination</td><td>Appuis + sprint</td><td>4x10m + ladder</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Jeudi</td><td>Core léger</td><td>Planche, medicine ball</td><td>3x45s</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Vendredi</td><td>Basket</td><td>Travail tactique léger</td><td>30–40 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Samedi</td><td>Basket intensité</td><td>1c1, transition</td><td>30–40 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+            <tr><td>Dimanche</td><td>Repos actif</td><td>Étirements / bain froid</td><td>30–45 min</td><td><input type="checkbox" onclick="toggleCheckbox(this)"></td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
